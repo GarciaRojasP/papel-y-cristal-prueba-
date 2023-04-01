@@ -1,13 +1,13 @@
 /*Recibir toda la información de nuestra base de datos*/
 const listaProducto = async () => 
-    fetch("http://localhost:3000/productos")
+    fetch("https://papel-y-cristal.onrender.com/productos")
         .then( (response) => response.json())
         .catch((error) => alert("Ocurrio un error"));
 
 
 /*Para agregar un nuevo producto a nuestra base de datos */
 const crearProducto = (imagen, nombre, categoria, precio, forma, tipo, luz, materiales) => 
-    fetch("http://localhost:3000/productos", {
+    fetch("https://papel-y-cristal.onrender.com/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -18,7 +18,7 @@ const crearProducto = (imagen, nombre, categoria, precio, forma, tipo, luz, mate
 
 /*Eliminar algun dato de nuestra base de datos*/
 const eliminarProducto = (id) => { /*Agregar return*/
-    return fetch(`http://localhost:3000/productos/${id}`, { /*Agregar un backti para agregar el id que recibimos*/
+    return fetch(`https://papel-y-cristal.onrender.com/productos/${id}`, { /*Agregar un backti para agregar el id que recibimos*/
         method: "DELETE"
     })
         .then ((respuesta) => console.log("Se elimino el producto exitosamente"))
@@ -27,13 +27,13 @@ const eliminarProducto = (id) => { /*Agregar return*/
 
 /*Actualizar alguna información de nuestra base de datos: tendremos que realizar dos peticiónes para realizar esta acción*/
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`)
+    return fetch(`https://papel-y-cristal.onrender.com/productos/${id}`)
         .then((respuesta) => respuesta.json())
         .catch((error) => alert("Ocurrio un error"))
 }
 
 const actualizarPorducto = (id, imagen, nombre, categoria, precio, forma, tipo, luz, materiales) => { /*importa el oreden de las variables*/
-    return fetch(`http://localhost:3000/productos/${id}`, {
+    return fetch(`https://papel-y-cristal.onrender.com/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -47,7 +47,7 @@ const actualizarPorducto = (id, imagen, nombre, categoria, precio, forma, tipo, 
 
 /*filtrado*/
 const filtradoProducto = async (categoria) => {
-    return fetch(`http://localhost:3000/productos?categoria=${categoria}`)
+    return fetch(`https://papel-y-cristal.onrender.com/productos?categoria=${categoria}`)
     .then( (response) => response.json())
     .catch((error) => alert("Ocurrio un error"))
 }

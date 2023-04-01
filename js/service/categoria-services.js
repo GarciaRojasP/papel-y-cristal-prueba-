@@ -1,6 +1,6 @@
 /*Recibir toda la información de nuestra base de datos*/
 const listaCategoria = async () => 
-    fetch("http://localhost:3000/categorias")
+    fetch("https://papel-y-cristal.onrender.com/categorias")
         .then( (response) => response.json())
         .catch((error) => alert("Ocurrio un error"));
 

@@ -15,7 +15,7 @@ const crearNuevoListaItems = (nombre) => {
     return lista;
 }
 
-var data = fetch("http://localhost:3000/productos")
+var data = fetch("https://papel-y-cristal.onrender.com/productos")
     .then((response) => response.json())
     .then((json) => (data = json));
 
