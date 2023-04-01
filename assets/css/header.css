@@ -1,0 +1,31 @@
+.header{
+    background: var(--fondo-obscuro);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 4px 30px -25px var(--color3);
+    height: 90px;
+}
+
+.header-ctn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.logo{
+    width: 100px;
+    z-index: 1;
+}
+.logo__img{
+    width: 70%;
+}
+
+.cnt-icons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

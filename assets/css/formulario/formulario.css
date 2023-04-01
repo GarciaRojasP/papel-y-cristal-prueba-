@@ -1,0 +1,40 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.fieldset{
+    border: none;
+    padding: 0;
+}
+
+.formulario__registrar-producto-ctn{
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.formulario__registrar-producto{
+    width: 70%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 780px) {
+    .formulario{
+        width: 50%;
+        margin-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .formulario__registrar-producto{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .formulario__registrar-producto{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

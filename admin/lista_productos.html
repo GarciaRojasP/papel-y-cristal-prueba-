@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/logo.ico" type="image/icon">
+    <title>Paperl y Cristal | Lista de productos</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/header_admin.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/lista-produc__ctn.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/tabla/table-produc.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/modal-container/modal-container.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/footer_admin.css">
+
+</head>
+<body>
+    
+    <header class="header"></header>
+    <script src="/js/templete/header_admin.js"></script>
+
+    <main>
+        <sectio class="lista-produc__ctn">
+            <h1 class="titulo__principal">Lista de productos</h1>
+
+            <div class="cnt-tabla">
+              <table class="table_produc">
+                <thead class="thead">
+                  <tr>
+                    <th class="table__column">Imagen</th>
+                    <th class="table__column">Nombre</th>
+                    <th class="table__column table__column--modif">Categoría</th>
+                    <th class="table__column">Precio</th>
+                    <th class="table__column">Forma</th>
+                    <th class="table__column">Tipo</th>
+                    <th class="table__column">Luz</th>
+                    <th class="table__column material">Materiales</th>
+                    <th class="table__column">
+                      <a href="registrar_producto.html" class="new-product__btn">
+                        Nuevo Producto</a>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody data-table>
+                  <!--Aqui se genera los datos de forma automatica vinculado por la base de datos-->
+                </tbody>
+              </table>
+            </div>
+            
+        </sectio>
+
+        <section class="modal-container modal--close">
+            <article class="modal">
+              <h2 class="modal__title">Eliminar</h2>
+              <button class="modal__close btn-delete">X</button>
+              <p class="modal__text">¿Deseas continuar?</p>
+              <div class="modal__button-container">
+                <button class="modal__button modal__button--confirm">
+                  Si
+                </button>
+                <button class="modal__button modal__button--rechazar">No</button>
+              </div>
+            </article>          
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="/js/templete/footer_admin.js"></script>
+    <script type="module" src="/js/controllers/product-controllers.js"></script>
+</body>
+</html>

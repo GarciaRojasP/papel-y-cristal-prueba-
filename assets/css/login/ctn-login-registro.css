@@ -1,0 +1,78 @@
+/*main{
+    padding: 2rem 1rem;
+    margin: auto;
+    margin-top: 100px;
+}*/
+
+.ctn-login-registro{
+    width: 100%;
+    max-width: 800px;
+    margin: 150px auto;
+    position: relative;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    color: var(--color1);
+    background: var(--color3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-sizing: border-box;
+}
+
+.box-login, .box-registro{
+    margin: 70px 40px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+}
+
+.btn__iniciar-sesion, .btn__registrase{
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid var(--color1);
+    background-color: transparent;
+    color: var(--color1);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.btn__iniciar-sesion:hover, .btn__registrase:hover{
+    color: var(--color3);
+    background: var(--color1);
+}
+
+@media screen and (max-width: 850px) {
+    .ctn-login-registro{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .box{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .box-login, .box-registro{
+        margin: 0;
+        position: absolute;
+        padding-right: 0.5rem;
+    }
+    .box-login{
+        display: none;
+    }
+}

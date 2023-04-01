@@ -1,0 +1,29 @@
+.gallery-imgs{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0;
+    background: var(--degradado-cover);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 9999;
+}
+
+.gallery__img{
+    width: 250px;
+    /*aspect-ratio: 1 / 1;*/
+    object-fit: cover;
+}
+
+.close-gallery{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    color: var(--color1);
+    font-size: 2.5rem;
+    cursor: pointer;
+}

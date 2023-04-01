@@ -1,0 +1,51 @@
+:root{
+
+    /*Familia*/
+    --font-aladin: 'Aladin', cursive;
+    --font-montserrat: 'Montserrat', sans-serif;
+
+    /*fondos*/
+    --fondo-obscuro: #19A7CE;
+    --fondo-claro: #97DEFF;
+    --fondo-claro2: #ECF2FF;
+
+    /*Letras*/
+    --color1: #ffffff;
+    --color2: #19A7CE;
+    --color3: #000000;
+    --color4: #E3F2FD;
+    --color5: #B3E5FC;
+    --gris-claro:  #d1d6e0;
+    --gris-obscuro: #96999e;/*#b2b6be;*/
+
+    /*Degradado*/
+    --degradado-color-obscuro: rgba(25, 167, 206,0.8);
+    --degradado-cover: rgba(0,0,0,0.5);
+    --sombra: rgba(163,163,163,0.5);
+
+    /*estados*/
+    --valido: #1ed12d;
+    --invalido: #bb2929;
+    --activo: #81bbfd;
+    
+    /*sombra*/
+    --shadow: 0 5px 10px #55a6ff38;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+body{
+    font-family: var(--font-montserrat);
+}
+
+.titulo__principal{
+    font-family: var(--font-aladin);
+    font-size: 2.1rem;
+    color: var(--color2);
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}

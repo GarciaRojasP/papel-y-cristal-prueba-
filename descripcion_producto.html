@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo.ico" type="image/icon">
+    <title>Paperl y Cristal | Descripción del producto</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/menu/bars-menu.css">
+    <link rel="stylesheet" href="assets/css/menu/menu.css">
+    <link rel="stylesheet" href="assets/css/nav/nav.css">
+    <link rel="stylesheet" href="assets/css/search/ctn-icon-y-bars-search.css">
+    <link rel="stylesheet" href="assets/css/search/contenedor-box.css">
+    <link rel="stylesheet" href="assets/css/carrito.css/ctn-icon-car.css">
+    <link rel="stylesheet" href="assets/css/productos.css">
+    <link rel="stylesheet" href="assets/css/inf-product.css">
+
+    <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+
+    <header class="header"></header>
+    <script src="js/templete/header.js"></script>
+
+    <div class="ctn-bars-search">
+        <input type="text" class="inputSearch" id="inputSearch" placeholder="Busca tu producto" data-searchi>
+    </div>
+
+    <!--<div class="contenedor-box">
+        <ul class="box-search__lista">
+            <li class="box-search__iten"><a href="#" class="box-search__link"><i class="fa-solid fa-magnifying-glass box-search-icon"></i>Pikachu</a></li>
+            <li class="box-search__iten"><a href="#" class="box-search__link"><i class="fa-solid fa-magnifying-glass box-search-icon"></i>Girasoles</a></li>
+            <li class="box-search__iten"><a href="#" class="box-search__link"><i class="fa-solid fa-magnifying-glass box-search-icon"></i>Eevee</a></li>
+            <li class="box-search__iten"><a href="#" class="box-search__link"><i class="fa-solid fa-magnifying-glass box-search-icon"></i>Bulbasaur</a></li>
+        </ul>
+    </div>-->
+
+    <div class="cover-ctn-search"></div>
+
+    <main>
+        <section class="inf-product">
+            <h1 class="titulo__principal" data-nombreproducto></h1>
+            <div class="inf-product__ctn">
+                <div class="inf-porduct__img">
+                    <img src="" alt="sylveon" class="product__img" data-imagen>
+                </div>
+                <div class="inf-product__contenido">
+                    <!--<h2 class="nombre-product">Sylveon</h2>-->
+                    <p>Precio: <span data-precio></span> </p>
+                    <p>Categoría: <span data-categoria></span></p>
+                    <ul class="inf-product__lista">
+                        <li>Forma del cristal: <span data-forma></span></li>
+                        <li>Tipo de esfera: <span data-tipo></span> </li>
+                        <li>Luz: <span data-luz></span></li>
+                    </ul>
+                    <p>Materiales: <span data-materiales></span></p>
+                    <div class="ctn-datos">
+                        <div class="ctn-input">
+                            <label for="cantidad">Cantidad:</label>
+                            <input type="number" class="input-cantidad">
+                        </div>
+                        <div class="ctn-btn">
+                            <button class="boton btn_agregar">
+                                <i class="fa-solid fa-cart-shopping"></i>Agregar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    
+    <script type="module" src="js/bars-menu.js"></script>
+    <script type="module" src="js/bars-search.js"></script>
+    <script type="module" src="js/controllers/mostrar_products.js"></script>
+    <script src="js/templete/footer.js"></script>
+</body>
+</html>

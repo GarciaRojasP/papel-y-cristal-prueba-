@@ -1,0 +1,18 @@
+.ctn-icon-car{
+    margin-right: 1rem;
+}
+
+.icon-car{
+    color: var(--color1);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 300ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+}
+
+.icon-car:hover{
+    color: var(--color3);
+}

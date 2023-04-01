@@ -1,0 +1,9 @@
+main{
+    min-height: calc(100vh - 212px);
+}
+
+.lista-produc__ctn{
+    display: block;
+    width: 95%;
+    margin: 2rem auto 3rem;
+}

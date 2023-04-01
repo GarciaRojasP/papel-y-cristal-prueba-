@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/img/logo.ico" type="image/icon">
+    <title>Paperl y Cristal | Registrar producto</title>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <script src="https://kit.fontawesome.com/b947fe8bbd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/header_admin.css">
+    <link rel="stylesheet" href="/assets/css/formulario/formulario.css">
+    <link rel="stylesheet" href="/assets/css/formulario/formulario__grupo-input.css">
+    <link rel="stylesheet" href="/assets/css/style-admin/footer_admin.css">
+
+</head>
+<body>
+    
+    <header class="header"></header>
+    <script src="/js/templete/header_admin.js"></script>
+
+    <main>
+
+        <section class="formulario__registrar-producto-ctn">
+            <h2  class="titulo__principal">Agregar nuevo producto</h2>
+            <form class="formulario__registrar-producto" data-form__registrar-product>
+                <fieldset class="fieldset">
+    
+                    <div class="formulario__grupo" id="grupo__imgen">
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="img" name="imagen" class="formulario__input" placeholder="URL de la imagen:" required data-imagen data-product="imagen">
+                            <label class="formulario__label" for="imagen">Imagen</label>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__nombreproducto">
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="nombreproducto" name="nombreproducto" class="formulario__input" placeholder="Nombre del producto:" required data-nombreproducto data-product="nombre">
+                            <label class="formulario__label" for="nombreproducto">Nombre de producto</label>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__categoria">
+                        <div class="formulario__grupo-input">
+                            <select name="categoria" class="formulario__input select" required data-categoria data-product="categoria">
+                                <option disabled selected value="">Selecciona una categoría</option>
+                                <option value="Animal">Animal</option>
+                                <option value="Flor">Flores</option>
+                                <option value="Pokémon">Pokémon</option>
+                                <option value="Anime">Anime</option>
+                            </select>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__precio">
+                        <div class="formulario__grupo-input">
+                            <input type="text" id="precio" name="precio" class="formulario__input" required placeholder="Correo Electrónico:" data-precio data-product="precio">
+                            <label class="formulario__label" for="precio">Precio</label>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">Ingrese algun correo</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__forma">
+                        <div class="formulario__grupo-input">                            
+                            <select name="forma" class="formulario__input select" required data-forma data-product="forma">
+                                <option disabled selected value="">Forma del cristal</option>
+                                <option value="Pecera de esfera">Pecera de esfera</option>
+                                <option value="Capelo">Capelo</option>
+                                <option value="Burbuja">Burbuja</option>
+                                <option value="Cilindro">Cilindro</option>
+                            </select>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__tipo">
+                        <div class="formulario__grupo-input">
+                            <select name="medida" id="medida" class="formulario__input select" required data-tipo data-product="medida">
+                                <option disabled selected value="">Selecciona el tipo de cristal</option>
+                                <option value="#5">#5</option>
+                                <option value="R-6">R-6</option>
+                                <option value="R-8">R-8</option>
+                                <option value="N° 22">N° 22</option>
+                            </select>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__luz">
+                        <div class="formulario__grupo-input">
+                            <select name="luz" class="formulario__input select" required data-luz data-product="luz">
+                                <option disabled selected value="">Contiene luz</option>
+                                <option value="Si">Si</option>
+                                <option value="No">No</option>
+                            </select>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                    </div>
+    
+                    <div class="formulario__grupo" id="grupo__materiales">
+                        <div class="formulario__grupo-input">
+                            <textarea id="materiales" name="materiales" cols="70" rows="10" class="formulario__input textarea" placeholder="materiales:" required data-materiales data-product="materiales"></textarea>
+                            <label class="formulario__label" for="materiales">Materiales</label>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <span class="formulario__input-error">El campo no puede estar vacío</span>
+                        </div>
+                        
+                    </div>
+    
+                </fieldset>
+    
+                <button type="submit" class="registrar_producto"> Registrar Producto
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>    
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="/js/templete/footer_admin.js"></script>
+    <script type="module" src="/js/admin/app_admin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="/js/controllers/registro_product-controllers.js"></script>
+</body>
+</html>

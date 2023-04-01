@@ -1,0 +1,350 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "email": "admin@papelcristal.com",
+      "password": "papelcristal"
+    }
+  ],
+  "productos": [
+    {
+      "id": 2,
+      "imagen": "../assets/img/productos/ajolote.jpg",
+      "nombre": "Ajolote Rosa",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Cilindro",
+      "tipo": "N° 22",
+      "luz": "No",
+      "materiales": "Hecho papel opalina grueso y de variedad de semillas."
+    },
+    {
+      "id": "535d7fe1-dede-4ef5-b58d-21dc3ac8b240",
+      "imagen": "../assets/img/productos/pikachu.jpeg",
+      "nombre": "pikachu",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "ecac6b46-91e9-4583-a2ee-9677912cf139",
+      "imagen": "../assets/img/productos/bulbasaur.jpg",
+      "nombre": "Bulbasaur",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "fa3bc83a-1927-4ee3-a418-d02771afd200",
+      "imagen": "../assets/img/productos/gengar.jpg",
+      "nombre": "Gengar",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "e6bc7f4d-e1ba-478e-88e6-2e48a0a463b2",
+      "imagen": "../assets/img/productos/cisne.jpg",
+      "nombre": "Cisne azul",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Capelo",
+      "tipo": "N° 22",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene una planta y piedras de mar."
+    },
+    {
+      "id": "9d30d940-8d87-44fc-8f5a-38325937ac8b",
+      "imagen": "../assets/img/productos/eevee.jpeg",
+      "nombre": "Eevee",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa y contiene piedras de mar y una plantita artificial."
+    },
+    {
+      "id": "7dc0c239-1ebf-48a0-a56d-95e8af8d72bd",
+      "imagen": "../assets/img/productos/flareon.jpeg",
+      "nombre": "Flareo",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene planta artificial y piedras de mar."
+    },
+    {
+      "id": "4af5c820-c58b-4464-92c6-bab7c05be4a3",
+      "imagen": "../assets/img/productos/girasoles1.jpg",
+      "nombre": "Girasoles",
+      "categoria": "Flor",
+      "precio": "$150.00",
+      "forma": "Capelo",
+      "tipo": "N° 22",
+      "luz": "Si",
+      "materiales": "Tres girasoles hecho de papel crepe y contiene piedras de mar como decoración."
+    },
+    {
+      "id": "01f9af1f-7a4a-4450-96a6-ea5de6b3c1fd",
+      "imagen": "../assets/img/productos/jolteon.jpg",
+      "nombre": "Jolteon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene planta artificial y piedras de mar."
+    },
+    {
+      "id": "84d3b23b-a1ce-4493-bdf0-0424830c3c84",
+      "imagen": "../assets/img/productos/raichu.jpeg",
+      "nombre": "Raichu",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "ea7306ae-9cbf-4f8b-b4e2-f0576b65bdf9",
+      "imagen": "../assets/img/productos/sylveon.jpeg",
+      "nombre": "Sylveon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "f4021e41-d214-48e7-bade-9433d69d3fa2",
+      "imagen": "../assets/img/productos/glaceon.jpeg",
+      "nombre": "Glaceon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene planta artificial y piedras de mar."
+    },
+    {
+      "id": "737095e6-e281-499c-9b87-5fd4775c86f6",
+      "imagen": "../assets/img/productos/tortuga-marina.jpg",
+      "nombre": "Tortuga marina",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene una planta y piedras de mar."
+    },
+    {
+      "id": "dbc1f03c-4db2-422f-9ea9-43c6ed3de8cf",
+      "imagen": "../assets/img/productos/umbreon.jpeg",
+      "nombre": "Umbreon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso contiene una planta y piedras de mar."
+    },
+    {
+      "id": "3795c504-8adc-470a-822b-dee394491c49",
+      "imagen": "../assets/img/productos/lechuza.jpeg",
+      "nombre": "Lechuza",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "Si",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "18cd39c2-a947-4ea2-8123-b4bc827d600e",
+      "imagen": "../assets/img/productos/cuyo.jpg",
+      "nombre": "Cuyo",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "cf16e8ae-aeda-46d3-bfd8-ab487fbd84ad",
+      "imagen": "../assets/img/productos/buho.jpg",
+      "nombre": "Búho chillón tropical",
+      "categoria": "Animal",
+      "precio": "$150.00",
+      "forma": "Capelo",
+      "tipo": "N° 22",
+      "luz": "Si",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial de diversas formas y piedras de mar."
+    },
+    {
+      "id": "b1addb43-82b9-47ac-a561-79190d950343",
+      "imagen": "../assets/img/productos/colibri.jpg",
+      "nombre": "Colibrí",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "7b37e3ed-c6b2-4d79-9cd0-07d79ab4e235",
+      "imagen": "../assets/img/productos/gato-negro.jpg",
+      "nombre": "Gato negro",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "cef09e28-7d55-4941-9b7f-fa89629b709e",
+      "imagen": "../assets/img/productos/martin-pescador.jpg",
+      "nombre": "Martín pescador",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "\t\nHecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "e309f29d-f302-4ac1-8144-ffd76fb25f8e",
+      "imagen": "../assets/img/productos/elefante.jpg",
+      "nombre": "Elefante",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina gruesa con una planta artificial y piedras de mar."
+    },
+    {
+      "id": "5f1c0970-94fe-4920-b23a-ca79d66cb64f",
+      "imagen": "../assets/img/productos/vaporeon.jpeg",
+      "nombre": "Vaporeon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "3cd95e8b-8571-4fb3-b12f-a88412b4abe7",
+      "imagen": "../assets/img/productos/leafeon.jpg",
+      "nombre": "Leafeon",
+      "categoria": "Pokémon",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "4d3319a1-bf6b-4e3d-99c9-550649696987",
+      "imagen": "../assets/img/productos/buho-chillón(2).jpg",
+      "nombre": "Búho chillón tropical",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "3088b992-a88d-430d-a824-de7ddfb5b468",
+      "imagen": "../assets/img/productos/cuyo-claro.jpg",
+      "nombre": "Cuyo pelaje claro",
+      "categoria": "Animal",
+      "precio": "$150.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "1a354278-e300-4ff2-8a28-698bd4e2e16e",
+      "imagen": "../assets/img/productos/rana-ruberta.jpg",
+      "nombre": "Rana ruberta",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "d303dd29-a007-4d2c-90f1-06b6892e50a5",
+      "imagen": "../assets/img/productos/oso-perezoso.jpg",
+      "nombre": "Oso perezoso",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    },
+    {
+      "id": "b1702640-2561-4d30-86e3-4546d9abd2f2",
+      "imagen": "../assets/img/productos/guacamayo-jacinto.jpg",
+      "nombre": "Guacamayo jacinto",
+      "categoria": "Animal",
+      "precio": "$130.00",
+      "forma": "Burbuja",
+      "tipo": "R-6",
+      "luz": "No",
+      "materiales": "Hecho de papel opalina grueso, piedras de mar y una pequeña decoración de planta."
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "categoria": "Animal"
+    },
+    {
+      "id": 2,
+      "categoria": "Pokémon"
+    },
+    {
+      "id": 3,
+      "categoria": "Flor"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "patricia",
+      "email": "patricia@gmail.com",
+      "usuario": "patricia97",
+      "password": "patricia"
+    },
+    {
+      "id": "2e1c84a5-4226-4716-9b95-9cf4dc494380",
+      "nombre": "Norberta García",
+      "email": "norberta.97@gmail.com",
+      "usuario": "norberta97",
+      "password": "norberta97"
+    }
+  ]
+}
