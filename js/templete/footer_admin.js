@@ -12,7 +12,7 @@ pieDePagina.classList.add("footer");
             const footer_logo_img = document.createElement("img");
             footer_logo.appendChild(footer_logo_img);
             footer_logo_img.classList.add("footer-logo__img");
-            footer_logo_img.src = "../assets/img/logo-blanco.png";
+            footer_logo_img.src = "assets/img/logo-blanco.png";
             footer_logo_img.alt= "logo de Papel y Cristal";
 
         const degradado = document.createElement("div");
