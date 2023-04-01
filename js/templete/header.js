@@ -11,7 +11,7 @@ header_ctn.classList.add("header-ctn");
         const logo_link = document.createElement("a");
         logo.appendChild(logo_link);
         logo_link.classList.add("logo__link");
-        logo_link.href = "admin/login.html";
+        logo_link.href = "loginAdmin.html";
 
             const img = document.createElement("img");
             logo_link.appendChild(img);
@@ -91,7 +91,7 @@ header_ctn.classList.add("header-ctn");
                     menu_link1.href = "index.html";
                     menu_link2.href = "productos.html";
                     menu_link3.href = "contacto.html";
-                    menu_link4.href = "login.html";
+                    menu_link4.href = "loginUsuario.html";
 
     const menu2 = document.createElement("nav");
     header_ctn.appendChild(menu2);
@@ -132,4 +132,4 @@ header_ctn.classList.add("header-ctn");
                     menu2_link1.href = "index.html";
                     menu2_link2.href = "productos.html";
                     menu2_link3.href = "contacto.html";
-                    menu2_link4.href = "login.html";
+                    menu2_link4.href = "loginUsuario.html";

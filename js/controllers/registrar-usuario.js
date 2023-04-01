@@ -12,7 +12,7 @@ formularioRegistro.addEventListener("submit", (evento) => {
 
     usuariosServices.registrarUsuario(nombre,email,usuario,password)
     .then((response) => {
-        window.location.href ="exitoso.html";
+        window.location.href ="exitosoRegistroUsuario.html";
     }).catch((erro) => alert("Ocurrio un erro, intentelo más tarde"))
 
 })

@@ -31,7 +31,7 @@ formulario.addEventListener("submit", (evento) => {
 
     productosServices.crearProducto(imagen, nombre, categoria, precio, forma, tipo, luz, materiales)
     .then((response) => {
-            window.location.href ="exitoso.html";
+            window.location.href ="exitosoAdmin.html";
         }).catch((erro) => alert("Ocurrio un erro, intentelo más tarde"))
 
 })

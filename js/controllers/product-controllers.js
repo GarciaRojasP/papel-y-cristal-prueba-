@@ -39,7 +39,7 @@ const crearNuevaLinea = (id, imagen, nombre, categoria, precio, forma, tipo, luz
 
         productosServices.eliminarProducto(id)
             .then(respuesta => {
-                window.location.href ="exitoso.html";
+                window.location.href ="exitosoAdmin.html";
             }).catch((err) => alert("ocurrio algun error"))
 
     });

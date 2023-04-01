@@ -13,7 +13,7 @@ formulario.addEventListener("submit", (evento) =>{
            data.forEach(({email,password}) => {
 
             if (email === emailIngresado && password === passwordIngresado) {
-                window.location.href = "lista_productos.html";
+                window.location.href = "lista_productosAdmin.html";
             } else { 
                if(email === emailIngresado || password === passwordIngresado){
                     alert("verifica tus datos")

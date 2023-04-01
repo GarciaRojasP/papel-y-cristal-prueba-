@@ -53,7 +53,7 @@ formulario.addEventListener("submit", (evento) => {
 
     productosServices.actualizarPorducto(id, imagen, nombre, categoria, precio, forma, tipo, luz, materiales)
     .then( () => {
-        window.location.href = "exitoso.html";
+        window.location.href = "exitosoAdmin.html";
     })
     
 })

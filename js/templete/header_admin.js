@@ -11,13 +11,13 @@ header_ctn.classList.add("header-ctn");
         const logo_link = document.createElement("a");
         logo.appendChild(logo_link);
         logo_link.classList.add("logo__link");
-        logo_link.href = "../admin/cerrar-sesion_admin.html";
+        logo_link.href = "cerrar-sesion_admin.html";
 
             const img = document.createElement("img");
             logo_link.appendChild(img);
             img.classList.add("logo__img");
             
-                img.src = "../assets/img/logo-blanco.png";
+                img.src = "assets/img/logo-blanco.png";
                 img.alt = "logo de papel y cristal";
 
     const cnt_icons = document.createElement("div");
@@ -29,9 +29,5 @@ header_ctn.classList.add("header-ctn");
         input_search.classList.add("input_search");
         input_search.type = "search";
         input_search.placeholder = "Buscar Producto";
-
-        /*const icon_busqueda = document.createElement("i");
-        cnt_icons.appendChild(icon_busqueda);
-        icon_busqueda.classList.add("fa-solid", "fa-magnifying-glass", "icon-search");*/
 
     
